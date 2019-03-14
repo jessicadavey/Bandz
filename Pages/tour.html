@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>tour</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="./css/table.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+
+        <script>
+            $(document).ready(function() {
+            $('#schedule').DataTable();
+            } );
+        </script>
+    </head>
+    <body>
+        <table id="schedule" class="display" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Venue</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>02/20/2019</td>
+                    <td>8:00PM</td>
+                    <td>Nashville</td>
+                    <td>Tennessee</td>
+                    <td>Brigestone Arena</td>
+                    <td>United States</td>
+                </tr>
+                <tr>
+                    <td>03/21/2019</td>
+                    <td>7:00PM</td>
+                    <td>Memphis</td>
+                    <td>Tennessee</td>
+                    <td>Elvis House</td>
+                    <td>United States</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Venue</th>
+                    <th>Country</th>
+                </tr>
+            </tfoot>
+        </table>
+        
+        <script src="" async defer></script>
+        <script src="./js/tour"></script>
+    </body>
+</html>
