@@ -118,3 +118,36 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
+.title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size: 48px;
+	text-align: center;
+}
+
+.subheader {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.album {
+	width: 80%;
+	max-width: 750px;
+	margin: auto;
+	box-sizing: border-box;
+	display: grid;
+	grid-template-columns: repeat(2,auto);
+	grid-gap: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;	
+}
+
+.album-info {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+
