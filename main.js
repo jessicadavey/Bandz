@@ -1,14 +1,14 @@
-var slideIndex = 0;
-showSlides();
+var membersSlideIndex = 0;
+bandSlide();
 
-function showSlides() {
+function bandSlide() {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+  var slide = document.getElementsByClassName("bandSlide");
+  for (i = 0; i < slide.length; i++) {
+    slide[i].style.display = "none";  
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  slides[slideIndex-1].style.display = "block";  
-  setTimeout(showSlides, 3000); // Change image every 3 seconds
+  membersSlideIndex++;
+  if (membersSlideIndex > slide.length) {membersSlideIndex = 1}    
+  slide[membersSlideIndex-1].style.display = "block";  
+  setTimeout(bandSlide, 3000); // Change image every 3 seconds
 }
