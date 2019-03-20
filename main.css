@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster|Montserrat|Open+Sans');
 
 html {
 	height: 300%;
@@ -66,7 +66,7 @@ nav ul li a:hover {
 #iframe-container {
 	position: relative;
 	width: 100%;
-	padding-bottom: 56.25%;
+	padding-bottom: 95.25%;
 	height: 0;
 	margin: 0 auto;
 }
@@ -117,4 +117,36 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+}
+
+.title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size: 48px;
+	text-align: center;
+	color:  rgba(0, 35, 122, 0.7);
+}
+
+.subheader {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.album {
+	width: 80%;
+	max-width: 750px;
+	margin: auto;
+	box-sizing: border-box;
+	display: grid;
+	grid-template-columns: repeat(2,auto);
+	grid-gap: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;	
+}
+
+.album-info {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
 }
