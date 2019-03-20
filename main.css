@@ -66,12 +66,12 @@ nav ul li a:hover {
 #iframe-container {
 	position: relative;
 	width: 100%;
-	padding-bottom: 56.25%;
+	padding-bottom: 95.25%;
 	height: 0;
 	margin: 0 auto;
 }
 * {box-sizing: border-box;}
-.mySlides {display: none;}
+.bandSlide {display: none;}
 img {vertical-align: middle;}
 
 /* Slideshow container */
@@ -133,6 +133,7 @@ img {vertical-align: middle;}
 	text-align: center;
 
 }
+
 .subheader {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bold;
@@ -150,6 +151,7 @@ img {vertical-align: middle;}
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	padding-bottom: 20px;	
+
 }
 
 .album-info {
@@ -157,5 +159,3 @@ img {vertical-align: middle;}
 	font-weight: normal;
 	font-size: 18px;
 }
-
-
