@@ -122,10 +122,17 @@ img {vertical-align: middle;}
 .title {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bold;
+	text-decoration: underline;
 	font-size: 48px;
 	text-align: center;
 }
+.header{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	text-align: center;
 
+}
 .subheader {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bold;
@@ -141,7 +148,8 @@ img {vertical-align: middle;}
 	grid-template-columns: repeat(2,auto);
 	grid-gap: 50px;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;	
+	font-size: 14px;
+	padding-bottom: 20px;	
 }
 
 .album-info {
