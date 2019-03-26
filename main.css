@@ -13,7 +13,7 @@ a:hover {
 	color: #F602DE;
 }
 nav {
-	margin: 0 auto;
+	margin: auto;
 }
 
 nav ul {
@@ -21,6 +21,7 @@ nav ul {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bold;
 	color: #F5F5F5;
+
 }
 
 nav ul li {
