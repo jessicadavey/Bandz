@@ -148,6 +148,10 @@ img {
   text-align: center;
 }
 
+.divide {
+  width: 80%;
+}
+
 .album {
   width: 80%;
   max-width: 750px;
@@ -158,7 +162,7 @@ img {
   grid-gap: 50px;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 
 .album-info {
@@ -204,7 +208,6 @@ img {
     margin: auto;
     grid-template-columns: repeat(1, auto);
     grid-gap: 15px;
-    padding-bottom: 20px;
   }
   .album-cover,
   .album-info,
