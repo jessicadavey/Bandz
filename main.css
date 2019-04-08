@@ -14,6 +14,11 @@ a:hover {
 }
 nav {
   margin: auto;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #585454;
+  z-index: 1;
 }
 
 nav ul {
@@ -124,7 +129,6 @@ img {
   font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
   text-decoration: none;
-  /* font-size: 54px; */
   font-size: 7vw;
   text-align: center;
 }
@@ -165,6 +169,11 @@ img {
   padding-bottom: 0px;
 }
 
+.album-cover {
+  position: sticky;
+  top: 50px;
+}
+
 .album-info {
   font-family: "Josefin Sans", sans-serif;
   font-weight: normal;
@@ -175,7 +184,7 @@ img {
   text-align: justify;
 }
 
-/* For viewing on devices */
+/* For viewing on mobile devices */
 
 @media screen and (max-width: 800px) {
   .title {
@@ -188,6 +197,10 @@ img {
 
   .subheader {
     font-size: 6vw;
+  }
+
+  nav {
+    position: static;
   }
 
   nav ul {
@@ -213,6 +226,10 @@ img {
   .album-info,
   .track-listing {
     margin: auto;
+  }
+
+  .album-cover {
+    position: static;
   }
 
   .album-title {
